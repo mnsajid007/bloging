@@ -1,0 +1,109 @@
+:root {
+    --heading: #375593;
+    --para: #777777;
+    --para-tint: #e4e4e4;
+    --white: #fff;
+    --helper: #8490ff;
+    --helper-tint: #f3f4ff;
+    --bg: rgb(249 249 255);
+    --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+    --shadpw: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+    --shadow-support: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
+    --footer-para: #adadad;
+    --orange: rgb(236, 78, 19);
+  }
+
+.login{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-data {
+    width: 40%;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--heading);
+}
+
+
+/* HEADER SECTION */
+.blog{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 10rem;
+    background: var(--white);
+    padding: 5rem;
+    gap: 6rem;
+    border-radius: 4px;
+}
+.admin-lists .navbar-link{
+    color: var(--heading);
+}
+
+.blog-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+.blog-right input {
+    padding: 8px 0;
+  text-indent: 10px;
+  color: #555;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  height: 42px;
+  background: var(--helper-tint);
+}
+.admin-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.admin-lists li{
+    border-bottom: 1px solid var(--footer-para);
+    padding-bottom: 1rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* TABLE */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .admin-btn{
+    width: 150px;
+    padding: 1rem 1rem;
+    background: var(--heading);
+    color: var(--white);
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
